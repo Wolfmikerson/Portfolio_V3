@@ -3,6 +3,9 @@
 body {
   margin: 0%;
   background-color: #e5e5e5;
+  position: relative;
+  width: 375px;
+  height: 5410px
 }
 
 .margin-none {

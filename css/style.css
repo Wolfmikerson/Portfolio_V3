@@ -107,8 +107,6 @@ body {
 
 .headline {
   flex-direction: column;
-
-  /* align-items: center; */
   background-image: url("images/background.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -130,18 +128,6 @@ body {
 .display-list-item {
   margin-right: 20px;
 }
-
-/*
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-template-columns: auto;
-  grid-template-columns: auto;
-  padding: 30px 30px;
-  row-gap: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-} */
 
 .flex-item {
   display: flex;
@@ -227,8 +213,6 @@ body {
 
 .para {
   margin: 15px;
-
-  /* display: flex; */
   position: static;
   width: 312px;
   height: 76px;
@@ -243,7 +227,6 @@ body {
 }
 
 .htm {
-  /* display: flex; */
   margin-right: 15px;
   position: static;
   width: 29px;
@@ -332,18 +315,6 @@ body {
   padding: 0 2rem 1rem 0;
   margin: 0 1rem 1rem 1rem;
 }
-
-/*
-.framework {
-  border-bottom: solid;
-  border-bottom-color: #000;
-}
-
-.skills {
-  border-bottom: solid;
-  border-bottom-color: #000;
-
-} */
 
 .second-list-tyle {
   margin-bottom: 0;
@@ -516,25 +487,11 @@ textarea.form-element {
 /* Fix Mobile  */
 
 .grid-container {
-  /* display: -ms-grid; */
   display: grid;
-
-  /* 3grid-template-columns: 2fr 2fr; */
-
-  padding: 30px 30px;
-
-  /* row-gap: repeat(nth-child(even), 5rem); */
+  padding: 14px 16px;
   margin-top: 5rem;
   margin-bottom: 5rem;
-
-  /* border: solid; */
-
-  /* grid-template-columns: 50% 50%; */
   grid-template-columns: 1fr;
-
-  /* width: 80%;
-  padding: 0%;
-  margin-left: 10%; */
   grid-template-areas:
     "item1"
     "item2"
@@ -548,8 +505,6 @@ textarea.form-element {
 
 .grid-item1 {
   grid-area: item1;
-
-  /* grid-row-start: span 2; */
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }

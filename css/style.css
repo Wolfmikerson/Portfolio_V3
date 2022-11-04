@@ -5,7 +5,7 @@ body {
   background-color: #e5e5e5;
   position: relative;
   width: 375px;
-  height: 5410px
+  height: 5410px;
 }
 
 .margin-none {
@@ -134,7 +134,7 @@ body {
 .flex-item {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 96%;
   background-color: white;
   justify-content: space-evenly;
   border-radius: 1rem;
@@ -559,3 +559,6 @@ textarea.form-element {
   border-top-right-radius: 0;
 }
 
+.grid-item {
+  margin-right: 0;
+}
